@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes à un canard}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Commençons par le commencement}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Finissons !}{8}{0}{1}

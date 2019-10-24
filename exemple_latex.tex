@@ -1,0 +1,70 @@
+\documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+
+\title{Un cours intéressant}
+\subtitle{et didactique !}
+\date[2019]{Novembre 2019}
+\author[Euclid]{Euclid of Alexandria \texttt{euclid@alexandria.edu}}
+\institute{Département mathématique d'Alexandrie}
+\usetheme{sorbonne}
+
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+\begin{frame}
+        \frametitle{Sommaire}
+        \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes à un canard}
+
+\subsection{Commençons par le commencement}
+
+\begin{frame} 
+\frametitle{There Is No Largest Prime Number} 
+\framesubtitle{The proof uses \textit{reductio ad absurdum}.} 
+\begin{theorem}
+	There is no largest prime number. \end{theorem} 
+\begin{enumerate} 
+	\item<1-| alert@1> Suppose $p$ were the largest prime number. 
+	\item<2-> Let $q$ be the product of the first $p$ numbers. 
+	\item<3-> Then $q+1$ is not divisible by any of them. 
+	\item<1-> But $q + 1$ is greater than $1$, thus divisible by some prime
+	number not in the first $p$ numbers.
+\end{enumerate}
+\end{frame}
+
+\subsection{Finissons !}
+
+\begin{frame}{Blocks}
+
+\begin{block}{Bloc standard}
+  $$1 + e^{i \pi} = 0.$$
+\end{block}
+
+\begin{alertblock}{Alerte !}
+$$P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$
+\end{alertblock}
+\begin{exampleblock}{Ca par exemple !}
+  $$E = m C^2$$
+\end{exampleblock}
+
+\end{frame}
+
+\begin{frame}[fragile]{Code}
+\begin{lstlisting}
+
+// Gestion du contexte ete2013
+// Utilisation d'un nouveau template
+if (%variables['ctpage'] == "ete2013") {
+    variables['template_files']=array('page-ete');
+}
+\end{lstlisting}
+\end{frame}
+\end{document}
+

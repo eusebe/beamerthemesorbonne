@@ -1,0 +1,31 @@
+\mode<presentation>
+
+% BACKGROUND CANVAS TEMPLATES. -------------------------------------------------
+\defbeamertemplate*{background canvas}{sorbonne}{%
+    \begin{tikzpicture}
+        \clip (0,0) rectangle ++(\paperwidth,\paperheight);
+        \fill[normal text.bg] (0,0) rectangle ++(\paperwidth,\paperheight);
+    \end{tikzpicture}%
+}
+
+% Frame title : peut être envisager https://tex.stackexchange.com/questions/29047/background-image-for-frame-title
+\defbeamertemplate*{frametitle}{sorbonne}[1][]
+{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.5cm]{frametitle} 
+
+  \begin{tikzpicture}
+  \useasboundingbox[fill=white](0,0) rectangle(\the\paperwidth,1);
+   \ifx\insertframesubtitle\@empty%
+       {\node at (1.1,1) {\includegraphics[width=1.5cm]{sorbonne-med}};
+       \node[anchor= west,main,font=\large,text width=\paperwidth-2.2cm] at (2,1){\insertframetitle};}%
+      \else%
+       {\node at (1.1,1) {\includegraphics[width=1.5cm]{sorbonne-med}};
+   	    \node[anchor= west, main,font=\large,text width=\paperwidth-2.2cm] at (2,1.2){\insertframetitle};%
+   	    \node[anchor= west, main,font=\small,text width=\paperwidth-3.2cm] at (2.5,0.64){\hfill\insertframesubtitle};}% 
+      \fi
+  \end{tikzpicture}
+  \end{beamercolorbox}
+\vskip-0.5cm%
+}
+
+\mode<all>

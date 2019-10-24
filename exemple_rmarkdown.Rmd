@@ -1,0 +1,87 @@
+---
+title: Un cours intéressant
+subtitle: et didactique !
+author: Euclid of Alexandria \texttt{euclid@alexandria.edu}
+date: Novembre 2019
+fontsize: 10pt
+output:
+    beamer_presentation: 
+      pandoc_args: "--variable=mathspec"
+      theme: "sorbonne"
+      includes:
+        before_body: toc.tex
+        in_header: headersorbonne.tex
+      keep_tex: yes
+      highlight: tango
+      latex_engine: xelatex
+      template: "default.beamer"
+---
+
+```{r, echo=FALSE}
+default.size <- "scriptsize" ## Taille du code R par defaut ("normalsize", "tiny", "scriptsize", 'footnotesize", "small", "large", "Large", "LARGE", "huge", "Huge")
+knitr::opts_chunk$set(size = default.size) ## 
+def.chunk.hook  <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- def.chunk.hook(x, options)
+  ifelse(options$size != "normalsize", paste0("\n \\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
+})
+
+```
+
+# In the morning
+
+### Getting up
+
+- Turn off alarm
+- Get out of bed
+
+### Breakfast
+
+- Eat eggs
+- Drink coffee
+
+### Work
+
+First Euler observed that
+$$1 + e^{i \pi} = 0.$$
+
+Then, Gauss discovered the normal distribution:
+$$P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}$$
+
+Finally, Einstein proclaimed: 
+$$E = m C^2$$
+
+---
+
+
+```{r}
+summary(cars)
+```
+
+---
+
+```{r, size = "normalsize"}
+summary(cars)
+```
+
+---
+
+```{r}
+plot(cars)
+```
+
+# In the evening
+
+## Dinner
+
+### Miam!
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+### Two simple steps!
+
+- Get in bed
+- Count sheep
