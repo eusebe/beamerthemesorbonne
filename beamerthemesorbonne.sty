@@ -28,7 +28,6 @@
 	\node[yshift=-3cm, font=\large\color{white},text width=10cm,text badly centered] at (current page.90) {\uppercase\expandafter{#1}};
 	
 	\node[anchor=center] at (current page.center) {
-		%\includegraphics[width=4cm]{sorbonne-med-white.png}
                      \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
                     \includegraphics[width=4cm]{sorbonne-med-white.png}
                     \else% 
@@ -38,11 +37,12 @@
                     \fi%
 	};
 
-	\end{tikzpicture}
-	\begin{minipage}[t][0.97\textheight]{\textwidth}
-		\vfill
+	\node[anchor=south] at (current page.south) {
 		\color{white}\tiny\centering\url{sorbonne-universite.fr}
-	\end{minipage}
+	};
+
+	\end{tikzpicture}
+
 \end{frame}
 }
 

@@ -1,9 +1,11 @@
 ---
 title: Un cours intéressant
 subtitle: et didactique !
+short_title: Un titre court
 author: Euclid of Alexandria \texttt{euclid@alexandria.edu}
+institute: Alexandria department
 date: Novembre 2019
-fontsize: 10pt
+fontsize: 11pt
 bibliography: library.bib
 output:
     beamer_presentation: 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.9.26)  13 NOV 2019 15:39
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.9.26)  14 NOV 2019 16:05
 entering extended mode
 **./exemple_latex.tex
 (exemple_latex.tex
@@ -104,8 +104,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetexconfig\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
@@ -1539,12 +1539,12 @@ LaTeX Font Info:    ... okay on input line 20.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=14.22636pt
-* \marginparwidth=3.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1620,23 +1620,25 @@ Package biblatex Info: ... file 'exemple_latex.bbl' found.
 Package biblatex Info: Reference section=0 on input line 20.
 Package biblatex Info: Reference segment=0 on input line 20.
  (exemple_latex.nav)
+File: sorbonne-univ-white.png Graphic file (type QTm)
+ <use  "sorbonne-univ-white.png" >
+File: cc.png Graphic file (type QTm)
+
+<use  "cc.png" >
 
 LaTeX Font Warning: Font shape `EU1/FiraCodeLight(0)/m/sc' undefined
 (Font)              using `EU1/FiraCodeLight(0)/m/n' instead on input line 24.
 
-File: sorbonne-med-white.png Graphic file (type QTm)
-<use  "sorbonne-med-white.png" >
-File: cc.png Graphic file (type QTm)
- <use  "cc.png" > [1
+[1
 
 ] (exemple_latex.toc)
-File: sorbonne-med.png Graphic file (type QTm)
-
-<use  "sorbonne-med.png" > [2
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [2
 
 ]
-File: sorbonne-med-white.png Graphic file (type QTm)
- <use  "sorbonne-med-white.png" >
+File: sorbonne-univ-white.png Graphic file (type QTm)
+
+<use  "sorbonne-univ-white.png" >
 Underfull \hbox (badness 1215) in paragraph at lines 33--33
 []\EU1/FiraSansLight(0)/bx/sc/14.4 Introduction avec un titre un
  []
@@ -1660,9 +1662,9 @@ File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 ) [3
 
 ]
-File: sorbonne-med-white.png Graphic file (type QTm)
+File: sorbonne-univ-white.png Graphic file (type QTm)
 
-<use  "sorbonne-med-white.png" >
+<use  "sorbonne-univ-white.png" >
 Underfull \hbox (badness 1215) in paragraph at lines 35--35
 []\EU1/FiraSansLight(0)/bx/sc/14.4 Introduction avec un titre un
  []
@@ -1670,22 +1672,22 @@ Underfull \hbox (badness 1215) in paragraph at lines 35--35
 (exemple_latex.toc) [4
 
 ]
-File: sorbonne-med.png Graphic file (type QTm)
- <use  "sorbonne-med.png" > [5
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [5
 
 ]
-File: sorbonne-med.png Graphic file (type QTm)
+File: sorbonne-univ.png Graphic file (type QTm)
 
-<use  "sorbonne-med.png" > [6
-
-]
-File: sorbonne-med.png Graphic file (type QTm)
- <use  "sorbonne-med.png" > [7
+<use  "sorbonne-univ.png" > [6
 
 ]
-File: sorbonne-med-white.png Graphic file (type QTm)
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [7
 
-<use  "sorbonne-med-white.png" >
+]
+File: sorbonne-univ-white.png Graphic file (type QTm)
+
+<use  "sorbonne-univ-white.png" >
 Underfull \hbox (badness 1215) in paragraph at lines 51--51
 []\EU1/FiraSansLight(0)/bx/sc/14.4 Introduction avec un titre un
  []
@@ -1693,44 +1695,49 @@ Underfull \hbox (badness 1215) in paragraph at lines 51--51
 (exemple_latex.toc) [8
 
 ]
-File: sorbonne-med.png Graphic file (type QTm)
- <use  "sorbonne-med.png" > [9
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [9
+
+]
+\openout4 = `exemple_latex.vrb'.
+
+ (exemple_latex.vrb
+Overfull \hbox (21.21278pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][] 
+ []
+
+)
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [10
 
 ]
 \openout4 = `exemple_latex.vrb'.
 
  (exemple_latex.vrb)
-File: sorbonne-med.png Graphic file (type QTm)
+File: sorbonne-univ.png Graphic file (type QTm)
 
-<use  "sorbonne-med.png" > [10
-
-]
-\openout4 = `exemple_latex.vrb'.
-
- (exemple_latex.vrb)
-File: sorbonne-med.png Graphic file (type QTm)
- <use  "sorbonne-med.png" >
-[11
+<use  "sorbonne-univ.png" > [11
 
 ]
-File: sorbonne-med.png Graphic file (type QTm)
- <use  "sorbonne-med.png" > [12
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [12
 
 ]
-File: sorbonne-med-white.png Graphic file (type QTm)
- <use  "sorbonne-med-white.png" >
-(exemple_latex.toc) [13
+File: sorbonne-univ-white.png Graphic file (type QTm)
+
+<use  "sorbonne-univ-white.png" > (exemple_latex.toc) [13
 
 ]
 File: beamericonarticle.pdf Graphic file (type QTm)
- <use  "beamericonarticle.pdf" >
-File: sorbonne-med.png Graphic file (type QTm)
 
-<use  "sorbonne-med.png" > [14
+<use  "beamericonarticle.pdf" >
+File: sorbonne-univ.png Graphic file (type QTm)
+ <use  "sorbonne-univ.png" > [14
 
 ]
-File: sorbonne-med-white.png Graphic file (type QTm)
- <use  "sorbonne-med-white.png" > [15
+File: sorbonne-univ-white.png Graphic file (type QTm)
+
+<use  "sorbonne-univ-white.png" > [15
 
 ]
 \tf@nav=\write8
@@ -1744,8 +1751,7 @@ File: sorbonne-med-white.png Graphic file (type QTm)
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
-
-(exemple_latex.aux)
+ (exemple_latex.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 110.
 
@@ -1758,12 +1764,12 @@ Package logreq Info: Writing requests to 'exemple_latex.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 42533 strings out of 428408
- 811506 string characters out of 3160624
- 1019363 words of memory out of 3000000
- 45321 multiletter control sequences out of 15000+200000
- 11256 words of font info for 76 fonts, out of 3000000 for 9000
+ 42557 strings out of 428408
+ 811987 string characters out of 3160624
+ 1019769 words of memory out of 3000000
+ 45342 multiletter control sequences out of 15000+200000
+ 16179 words of font info for 97 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 64i,16n,85p,10476b,4523s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,16n,85p,10477b,4523s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on exemple_latex.pdf (15 pages).

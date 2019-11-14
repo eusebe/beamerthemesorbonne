@@ -1,6 +1,6 @@
 % !TEX TS-program = xelatex
 % !TEX encoding = UTF-8 Unicode
-\documentclass[10pt]{beamer}
+\documentclass[11pt]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
@@ -10,8 +10,8 @@
 \date[2019]{Novembre 2019}
 \author[Euclid]{Euclid of Alexandria \texttt{euclid@alexandria.edu}}
 \institute{Département mathématique d'Alexandrie}
-\usetheme[style=medecine]{sorbonne} % pour un theme plus rouge
-%\usetheme[style=universite]{sorbonne} % pour un theme plus bleu
+%\usetheme[style=medecine]{sorbonne} % pour un theme plus rouge
+\usetheme[style=universite]{sorbonne} % pour un theme plus bleu
 
 \usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
 \bibliography{library.bib}
@@ -38,7 +38,7 @@
 \frametitle{There Is No Largest Prime Number} 
 \framesubtitle{The proof uses \textit{reductio ad absurdum}.} 
 \begin{theorem}
-	There is no largest prime number. \end{theorem} 
+	There is no \textbf{largest} prime number. \end{theorem} 
 \begin{enumerate} 
 	\item<1-| alert@1> Suppose $p$ were the largest prime number. 
 	\item<2-> Let $q$ be the product of the first $p$ numbers. 

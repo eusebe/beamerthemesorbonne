@@ -18,10 +18,23 @@
     {%
 	    \begin{tikzpicture}[overlay, remember picture]
 	        \fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
+	        
+	        \node[anchor=south east, yshift=0.5cm, xshift=-0.5cm] at (current page.south east) {
+	        	\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+	        		\includegraphics[width=2.5cm]{sorbonne-med-white.png}
+	        	\else% 
+	        		\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}	        			
+		        	\fi%
+	        	\fi%
+	        };
+	        \node[anchor=south east] at (current page.south east) {
+       		        \includegraphics[width=1cm]{cc.png}
+			};
+	        
 	    \end{tikzpicture}
     }
     
-    \vspace{\baselineskip}
     \begin{minipage}[b][0.35\paperheight]{\textwidth}
         \vspace{\baselineskip}
         \usebeamerfont{title}
@@ -56,27 +69,7 @@
         \insertdate
     \end{minipage}
     
-    % Set the title graphic in a zero-height box, so that
-    % the position of other elements is not affected.
-    {\vfuzz=9999pt\vbox to 0pt {
-        \raggedleft
 
-        %\includegraphics[width=2.5cm]{sorbonne-med-white.png}
-        \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
-        \includegraphics[width=2.5cm]{sorbonne-med-white.png}
-        \else% 
-        	\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
-        	\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
-        	\fi%
-        \fi%
-
-        \vspace{0.2cm}
-        
-        \includegraphics[width=1cm]{cc.png}
-    }}
-
-   	\vspace*{0pt plus 100fill}
-    
     \addtocounter{framenumber}{-1}
 }
 
@@ -85,23 +78,19 @@
     {%
 	    \begin{tikzpicture}[overlay, remember picture]
 	        \fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
+	        
+	        \node[anchor=north west, yshift=-0.3cm, xshift=0.5cm] at (current page.north west) {
+	        	\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+		        	\includegraphics[width=2.5cm]{sorbonne-med-white.png}
+	        	\else% 
+	        		\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}	        			
+		        	\fi%
+	        	\fi%
+	        };
+	        
 	    \end{tikzpicture}
     }
-
-    \vspace{-4\baselineskip}
-    % Set the title graphic in a zero-height box, so that
-    % the position of other elements is not affected.
-    {\vfuzz=9999pt\vbox to 0pt {
-        \raggedright
-        % \includegraphics[width=2.5cm]{sorbonne-med-white.png}
-        \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
-        \includegraphics[width=2.5cm]{sorbonne-med-white.png}
-        \else% 
-        	\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
-       		\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
-        	\fi%
-        \fi%
-    }}
 
     \vspace{6\baselineskip}
     \begin{minipage}[b][0.2\paperheight]{\textwidth}
@@ -144,26 +133,20 @@
     {%
 	    \begin{tikzpicture}[overlay, remember picture]
 	        \fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
+	        
+	        \node[anchor=north west, yshift=-0.3cm, xshift=0.5cm] at (current page.north west) {
+	        	\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+	        		\includegraphics[width=2.5cm]{sorbonne-med-white.png}
+	        	\else% 
+	        		\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}	        			
+		        	\fi%
+	        	\fi%
+	        };
+	        
 	    \end{tikzpicture}
     }
     
-    \vspace{-4\baselineskip}
-    % Set the title graphic in a zero-height box, so that
-    % the position of other elements is not affected.
-    {\vfuzz=9999pt\vbox to 0pt {
-        \raggedright
-        % \inserttitlegraphic
-        % \includegraphics[width=2.5cm]{sorbonne-med-white.png}
-        \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
-        \includegraphics[width=2.5cm]{sorbonne-med-white.png}
-        \else% 
-        	\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
-        	\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
-        	\fi%
-        \fi%
-        
-    }}
-
     \vspace{6\baselineskip}
     \begin{minipage}[b][0.2\paperheight]{\textwidth}
         \usebeamerfont{sectiontitle}
