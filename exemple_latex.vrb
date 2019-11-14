@@ -1,9 +1,9 @@
 \frametitle{Code}
-\begin{lstlisting}
+\begin{verbatim}
 
 // Gestion du contexte ete2013
 // Utilisation d'un nouveau template
 if (%variables['ctpage'] == "ete2013") {
-    variables['template_files']=array('page-ete');
+variables['template_files']=array('page-ete');
 }
-\end{lstlisting}
+\end{verbatim}

@@ -16,10 +16,28 @@
   \begin{tikzpicture}
   \useasboundingbox[fill=white](0,0) rectangle(\the\paperwidth,1);
    \ifx\insertframesubtitle\@empty%
-       {\node at (1.1,1) {\includegraphics[width=1.5cm]{sorbonne-med}};
+       {\node at (1.1,1) {%
+       		%\includegraphics[width=1.5cm]{sorbonne-med}
+       		\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+       		\includegraphics[width=1.5cm]{sorbonne-med.png}
+       		\else% 
+       			\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+       			\includegraphics[width=1.5cm]{sorbonne-univ.png}
+       			\fi%
+       		\fi%       		
+       	};
        \node[anchor= west,main,font=\large,text width=\paperwidth-2.2cm] at (2,1){\insertframetitle};}%
       \else%
-       {\node at (1.1,1) {\includegraphics[width=1.5cm]{sorbonne-med}};
+       {\node at (1.1,1) {%
+       		%\includegraphics[width=1.5cm]{sorbonne-med}
+       		\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+       		\includegraphics[width=1.5cm]{sorbonne-med.png}
+       		\else% 
+       			\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+       			\includegraphics[width=1.5cm]{sorbonne-univ.png}
+       			\fi%
+       		\fi%
+       	};
    	    \node[anchor= west, main,font=\large,text width=\paperwidth-2.2cm] at (2,1.2){\insertframetitle};%
    	    \node[anchor= west, main,font=\small,text width=\paperwidth-3.2cm] at (2.5,0.64){\hfill\insertframesubtitle};}% 
       \fi

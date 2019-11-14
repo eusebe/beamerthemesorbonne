@@ -1,17 +1,20 @@
 \mode<presentation>
 
 % SET FONTS. -------------------------------------------------------------------
-% to use non-standard font
-\usepackage{fontspec}
 
-% to ensure that beamer does not meddle with the fonts we use
-\usefonttheme{professionalfonts}
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+  \usefonttheme{professionalfonts}
+  \usepackage{cmbright}
+  \setsansfont[BoldFont={Fira Sans}]{Fira Sans Light}
+  \setmonofont{Fira Code Light}
+\else
+  \usepackage{cmbright}
+  \usepackage[sfdefault,light]{FiraSans}
+  \usepackage{FiraMono}
+\fi
 
-% our main font
-\usepackage{cmbright}
-\usepackage[sfdefault]{FiraSans}
-\setsansfont[BoldFont={Fira Sans}]{Fira Sans Light}
-\setmonofont{Fira Mono}
 
 % for big numbers in section slides
 \newcommand\HUGE{\@setfontsize\Huge{100}{30}} 

@@ -354,6 +354,9 @@ $if(title)$
   $endif$
 $endif$
 
+$if(title)$
+\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+$endif$
 $if(subtitle)$
 $if(beamer)$
 $else$

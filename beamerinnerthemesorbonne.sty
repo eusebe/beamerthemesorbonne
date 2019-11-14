@@ -12,7 +12,6 @@
 \setbeamertemplate{itemize subitem}[triangle]
 \setbeamertemplate{itemize subsubitem}[circle]
 
-
 % STRUCTURE FRAME TEMPLATE DEFINITIONS. ----------------------------------------
 % Title page.
 \defbeamertemplate*{title page}{sorbonne}{%
@@ -61,8 +60,19 @@
     % the position of other elements is not affected.
     {\vfuzz=9999pt\vbox to 0pt {
         \raggedleft
-        % \inserttitlegraphic
+
+        %\includegraphics[width=2.5cm]{sorbonne-med-white.png}
+        \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
         \includegraphics[width=2.5cm]{sorbonne-med-white.png}
+        \else% 
+        	\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+        	\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
+        	\fi%
+        \fi%
+
+        \vspace{0.2cm}
+        
+        \includegraphics[width=1cm]{cc.png}
     }}
 
    	\vspace*{0pt plus 100fill}
@@ -83,8 +93,14 @@
     % the position of other elements is not affected.
     {\vfuzz=9999pt\vbox to 0pt {
         \raggedright
-        % \inserttitlegraphic
+        % \includegraphics[width=2.5cm]{sorbonne-med-white.png}
+        \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
         \includegraphics[width=2.5cm]{sorbonne-med-white.png}
+        \else% 
+        	\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+       		\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
+        	\fi%
+        \fi%
     }}
 
     \vspace{6\baselineskip}
@@ -137,7 +153,15 @@
     {\vfuzz=9999pt\vbox to 0pt {
         \raggedright
         % \inserttitlegraphic
+        % \includegraphics[width=2.5cm]{sorbonne-med-white.png}
+        \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
         \includegraphics[width=2.5cm]{sorbonne-med-white.png}
+        \else% 
+        	\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+        	\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
+        	\fi%
+        \fi%
+        
     }}
 
     \vspace{6\baselineskip}

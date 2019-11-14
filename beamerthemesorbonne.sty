@@ -6,9 +6,45 @@
 % Settings
 \useinnertheme{sorbonne}
 \useoutertheme{sorbonne}
-\usecolortheme{sorbonne}
 \usefonttheme{sorbonne}
+% style medecine ou universite
+\DeclareOptionBeamer{style}{
+    \PassOptionsToPackage{style=#1}{beamercolorthemesorbonne}
+}
+\ExecuteOptionsBeamer{style=medecine}
+\ProcessOptionsBeamer
+
+\usecolortheme{sorbonne}
+
+
 
 \setbeamertemplate{navigation symbols}{}
+
+%% Final frame with sorbonne logo
+\newcommand{\finalframe}[1]{
+	\begin{frame}[noframenumbering,plain]
+	\begin{tikzpicture}[overlay, remember picture]
+	\fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
+	\node[yshift=-3cm, font=\large\color{white},text width=10cm,text badly centered] at (current page.90) {\uppercase\expandafter{#1}};
+	
+	\node[anchor=center] at (current page.center) {
+		%\includegraphics[width=4cm]{sorbonne-med-white.png}
+                     \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+                    \includegraphics[width=4cm]{sorbonne-med-white.png}
+                    \else% 
+        	             \ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+                       \includegraphics[width=4cm]{sorbonne-univ-white.png}
+        	            \fi%
+                    \fi%
+	};
+
+	\end{tikzpicture}
+	\begin{minipage}[t][0.97\textheight]{\textwidth}
+		\vfill
+		\color{white}\tiny\centering\url{sorbonne-universite.fr}
+	\end{minipage}
+\end{frame}
+}
+
 
 \mode<all>

@@ -1,3 +1,5 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
 \documentclass[10pt]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -8,7 +10,12 @@
 \date[2019]{Novembre 2019}
 \author[Euclid]{Euclid of Alexandria \texttt{euclid@alexandria.edu}}
 \institute{Département mathématique d'Alexandrie}
-\usetheme{sorbonne}
+\usetheme[style=medecine]{sorbonne} % pour un theme plus rouge
+%\usetheme[style=universite]{sorbonne} % pour un theme plus bleu
+
+\usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
+\bibliography{library.bib}
+%\renewcommand*{\bibfont}{\footnotesize} % si besoin de réduire la taille du texte de la bibliographie
 
 \begin{document}
 
@@ -18,8 +25,10 @@
 
 \begin{frame}
         \frametitle{Sommaire}
-        \tableofcontents[hideallsubsections]
+        \tableofcontents
+        %\tableofcontents[hideallsubsections]
 \end{frame}
+
 
 \section{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes à un canard}
 
@@ -66,5 +75,36 @@ if (%variables['ctpage'] == "ete2013") {
 }
 \end{lstlisting}
 \end{frame}
-\end{document}
 
+\begin{frame}[fragile]{Code}
+\begin{verbatim}
+
+// Gestion du contexte ete2013
+// Utilisation d'un nouveau template
+if (%variables['ctpage'] == "ete2013") {
+variables['template_files']=array('page-ete');
+}
+\end{verbatim}
+\end{frame}
+
+\begin{frame}{Un papier}
+
+\begin{alertblock}{\citetitle{Ioannidis_2005} \cite{Ioannidis_2005}}
+
+Triste réalité.	
+	
+\end{alertblock}
+
+\end{frame}
+
+\section{References} \subsection{}
+
+\begin{frame}[allowframebreaks]{References}
+
+\printbibliography[heading=none]
+
+\end{frame}
+
+\finalframe{Merci pour votre attention}
+
+\end{document}

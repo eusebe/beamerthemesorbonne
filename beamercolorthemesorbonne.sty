@@ -1,9 +1,24 @@
 \mode<presentation>
 
+\DeclareOptionBeamer{style}{\def\beamer@mytheme@style{#1}}
+\ExecuteOptionsBeamer{style=medecine} % medecine will be default if nothing is given
+\ProcessOptionsBeamer
+
+\def\beamer@mytheme@stylemedecine{medecine}%
+\def\beamer@mytheme@styleuniversite{universite}%
+
+\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+\definecolor{sorbonnered}{HTML}{AC182E} % medecine
+\else% 
+    \ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+        \definecolor{sorbonnered}{HTML}{1D2769} % universite
+    \fi%
+\fi%
+
+
 % define colors
 \definecolor{main}{HTML}{263068}
 \definecolor{alert}{HTML}{AC182E}
-\definecolor{sorbonnered}{HTML}{AC182E}
 \definecolor{example}{RGB}{0, 110, 0}
 
 % Settings

@@ -60,7 +60,6 @@
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-\usetheme[]{sorbonne}
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \IfFileExists{microtype.sty}{% use microtype if available
@@ -145,9 +144,13 @@
 
 \setbeamertemplate{caption}[numbered] % affichage de "Figure 1"
 
+\usetheme[style=universite]{sorbonne}
+
 \makeatother
 
-\title{Un cours intéressant}
+  \title{Un cours intéressant}
+      \title[Un titre court]{Un cours intéressant}
+  
 \subtitle{et didactique !}
 \author{Euclid of Alexandria \texttt{euclid@alexandria.edu}}
 \date{Novembre 2019}
@@ -200,6 +203,9 @@ Then, Gauss discovered the normal distribution:
 \[P(x) = \frac{1}{{\sigma \sqrt {2\pi } }}e^{{{ - \left( {x - \mu } \right)^2 } \mathord{\left/ {\vphantom {{ - \left( {x - \mu } \right)^2 } {2\sigma ^2 }}} \right. \kern-\nulldelimiterspace} {2\sigma ^2 }}}\]
 
 Finally, Einstein proclaimed: \[E = m C^2\]
+
+At the end, Ioannidis concluded that most published research findings
+are false (see Ioannidis 2005)
 
 \end{frame}
 
@@ -257,7 +263,7 @@ Finally, Einstein proclaimed: \[E = m C^2\]
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{exemple_rmarkdown_files/figure-beamer/unnamed-chunk-4-1.pdf}
+\includegraphics{exemple_rmarkdown_xelatex_files/figure-beamer/unnamed-chunk-4-1.pdf}
 
 \normalsize
 
@@ -296,6 +302,29 @@ Finally, Einstein proclaimed: \[E = m C^2\]
   Count sheep
 \end{itemize}
 
+\begin{block}{And now\ldots{}}
+
+Good night!
+
+\end{block}
+
 \end{frame}
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\begin{frame}{References}
+\protect\hypertarget{references-1}{}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Ioannidis_2005}{}%
+Ioannidis, John P. A. 2005. ``Why Most Published Research Findings Are
+False.'' \emph{PLOS Medicine} 2 (8): e124.
+\url{https://doi.org/10.1371/journal.pmed.0020124}.
+
+\end{frame}
+
+\mode<all>
+\finalframe{Thanks for watching!}
 
 \end{document}

@@ -1,0 +1,80 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nyt/global/}
+  \entry{Ioannidis_2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=IJPA}{%
+         family={Ioannidis},
+         familyi={I\bibinitperiod},
+         given={John P.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Clinical research design,Finance,Genetic epidemiology,Genetics of
+  disease,Meta-analysis,Randomized controlled trials,Research
+  design,Schizophrenia}
+    \strng{namehash}{IJPA1}
+    \strng{fullhash}{IJPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Summary There is increasing concern that most current published research
+  findings are false. The probability that a research claim is true may depend
+  on study power and bias, the number of other studies on the same question,
+  and, importantly, the ratio of true to no relationships among the
+  relationships probed in each scientific field. In this framework, a research
+  finding is less likely to be true when the studies conducted in a field are
+  smaller; when effect sizes are smaller; when there is a greater number and
+  lesser preselection of tested relationships; where there is greater
+  flexibility in designs, definitions, outcomes, and analytical modes; when
+  there is greater financial and other interest and prejudice; and when more
+  teams are involved in a scientific field in chase of statistical
+  significance. Simulations show that for most study designs and settings, it
+  is more likely for a research claim to be false than true. Moreover, for many
+  current scientific fields, claimed research findings may often be simply
+  accurate measures of the prevailing bias. In this essay, I discuss the
+  implications of these problems for the conduct and interpretation of
+  research.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pmed.0020124
+    \endverb
+    \field{issn}{1549-1676}
+    \field{number}{8}
+    \field{pages}{e124}
+    \field{title}{Why {{Most Published Research Findings Are False}}}
+    \field{volume}{2}
+    \verb{file}
+    \verb C\:\\Users\\3121805\\Zotero\\storage\\KPVY33C7\\Ioannidis - 2005 - Wh
+    \verb y Most Published Research Findings Are False.pdf;C\:\\Users\\3121805\
+    \verb \Zotero\\storage\\3B97DFJS\\article.html
+    \endverb
+    \field{journaltitle}{PLOS Medicine}
+    \field{month}{08}
+    \field{year}{2005}
+  \endentry
+\endsortlist
+\endinput

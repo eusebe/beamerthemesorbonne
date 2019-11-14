@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.9.26)  24 OCT 2019 12:24
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.9.26)  13 NOV 2019 15:39
 entering extended mode
 **./exemple_latex.tex
 (exemple_latex.tex
@@ -831,8 +831,7 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 librarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (beamerinnerthemesorbonne.sty)
-(beamerouterthemesorbonne.sty) (beamercolorthemesorbonne.sty)
-(beamerfontthemesorbonne.sty
+(beamerouterthemesorbonne.sty) (beamerfontthemesorbonne.sty
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
@@ -1206,593 +1205,8 @@ LaTeX Font Info:    No file EU1cmbr.fd. on input line 144.
 LaTeX Font Warning: Font shape `EU1/cmbr/m/n' undefined
 (Font)              using `EU1/lmr/m/n' instead on input line 144.
 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\fira\FiraSans.sty"
-Package: FiraSans 2014/11/19 (Bob Tennent and autoinst) Style file for Fira San
-s fonts.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks50
-\XKV@tempa@toks=\toks51
 )
-\XKV@depth=\count272
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-Requested font "[FiraSans-Regular.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-\g__fontspec_family_FiraSans_int=\count273
-Requested font "[FiraSans-Bold.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
-Requested font "[FiraSans-RegularItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-RegularItal
-ic.otf
-Requested font "[FiraSans-BoldItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-BoldItalic.
-otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(0)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Ligatures=TeX,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Regular,ItalicFont =
-. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;mapping=tex-text;+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;mapping=tex-text;+pnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;ma
-pping=tex-text;+pnum;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;ma
-pping=tex-text;+pnum;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;mapping=tex-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;mapping=tex-text;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+pnum;+onum;+smcp;"
-.................................................
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 136.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(1)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Regular,ItalicFont =
-. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;+pnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(2)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,Lining},UprightFont = *-Regular,ItalicFont =
-. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;+pnum;+lnum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;+pnum;+lnum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+lnum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+lnum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;+pnum;+lnum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;+pnum;+lnum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+lnum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+lnum;+smcp;"
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(3)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Monospaced,OldStyle},UprightFont = *-Regular,ItalicFont =
-. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;+tnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
-;+tnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+t
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+t
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;+tnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mapping=te
-x-text;+tnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+tnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+tnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-Thin.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Thin.otf
-Requested font "[FiraSans-ThinItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-ThinItalic.
-otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(4)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Thin,ItalicFont =
-. *-ThinItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Thin.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Thin.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-ThinItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-ThinItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-Light.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Light.otf
-Requested font "[FiraSans-LightItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-LightItalic
-.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(5)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Light,ItalicFont =
-. *-LightItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Light.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+
-pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Light.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+
-pnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-LightItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-LightItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-ExtraLight.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-ExtraLight.
-otf
-Requested font "[FiraSans-ExtraLightItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-ExtraLightI
-talic.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(6)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-ExtraLight,ItalicFont =
-. *-ExtraLightItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraLight.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraLight.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraLightItalic.otf]/OT:script=latn;language=DFLT;mapping
-=tex-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraLightItalic.otf]/OT:script=latn;language=DFLT;mapping
-=tex-text;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-UltraLight.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-UltraLight.
-otf
-Requested font "[FiraSans-UltraLightItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-UltraLightI
-talic.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(7)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-UltraLight,ItalicFont =
-. *-UltraLightItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-UltraLight.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-UltraLight.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-UltraLightItalic.otf]/OT:script=latn;language=DFLT;mapping
-=tex-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-UltraLightItalic.otf]/OT:script=latn;language=DFLT;mapping
-=tex-text;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-Medium.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Medium.otf
-Requested font "[FiraSans-MediumItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-MediumItali
-c.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(8)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Medium,ItalicFont =
-. *-MediumItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Medium.otf]/OT:script=latn;language=DFLT;mapping=tex-text;
-+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Medium.otf]/OT:script=latn;language=DFLT;mapping=tex-text;
-+pnum;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-MediumItalic.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-MediumItalic.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-Book.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Book.otf
-Requested font "[FiraSans-BookItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-BookItalic.
-otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(9)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Book,ItalicFont =
-. *-BookItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Book.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Book.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+p
-num;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BookItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BookItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"-
-. 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-SemiBold.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-SemiBold.ot
-f
-Requested font "[FiraSans-SemiBoldItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-SemiBoldIta
-lic.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(10)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-SemiBold,ItalicFont =
-. *-SemiBoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-SemiBold.otf]/OT:script=latn;language=DFLT;mapping=tex-tex
-t;+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-SemiBold.otf]/OT:script=latn;language=DFLT;mapping=tex-tex
-t;+pnum;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-SemiBoldItalic.otf]/OT:script=latn;language=DFLT;mapping=t
-ex-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-SemiBoldItalic.otf]/OT:script=latn;language=DFLT;mapping=t
-ex-text;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-ExtraBold.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-ExtraBold.o
-tf
-Requested font "[FiraSans-ExtraBoldItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-ExtraBoldIt
-alic.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(11)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-ExtraBold,ItalicFont =
-. *-ExtraBoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraBold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;+pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraBold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;+pnum;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraBoldItalic.otf]/OT:script=latn;language=DFLT;mapping=
-tex-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-ExtraBoldItalic.otf]/OT:script=latn;language=DFLT;mapping=
-tex-text;+pnum;+onum;+smcp;"
-.................................................
-Requested font "[FiraSans-Heavy.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Heavy.otf
-Requested font "[FiraSans-HeavyItalic.otf]/OT" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-HeavyItalic
-.otf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSans(12)' created for font 'FiraSans' with options
-. [Ligatures = TeX,Scale = 1,Extension = .otf,Numbers =
-. {Proportional,OldStyle},UprightFont = *-Heavy,ItalicFont = *-HeavyItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[FiraSans-Heavy.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+
-pnum;+onum;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->s*[1]"[FiraSans-Heavy.otf]/OT:script=latn;language=DFLT;mapping=tex-text;+
-pnum;+onum;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->s*[1]"[FiraSans-HeavyItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;+pnum;+onum;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->s*[1]"[FiraSans-HeavyItalic.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;+pnum;+onum;+smcp;"
-.................................................
-)
-Requested font "Fira Sans Light" at 10.0pt
- -> ^^N^^X/windows/Fonts/FiraSans-Light.ttf
-Requested font "Fira Sans Light/OT" at 10.0pt
- -> j^^X/windows/Fonts/FiraSans-Light.ttf
-\g__fontspec_family_FiraSansLight_int=\count274
-Requested font "Fira Sans/OT" at 10.0pt
- -> Æ^^W/windows/Fonts/FiraSans-Regular.ttf
-Requested font "Fira Sans/I/OT" at 10.0pt
- -> ²^^W/windows/Fonts/FiraSans-Italic.ttf
-Requested font "Fira Sans Light/I/OT" at 10.0pt
- -> ^^8e^^X/windows/Fonts/FiraSans-LightItalic.ttf
-Requested font "Fira Sans Light/I/OT" at 10.0pt
- -> â^^W/windows/Fonts/FiraSans-LightItalic.ttf
-Requested font "Fira Sans Light/I/OT" at 10.0pt
- -> ¦^^X/windows/Fonts/FiraSans-LightItalic.ttf
-Requested font "Fira Sans/I/OT" at 10.0pt
- -> ^^9a^^X/windows/Fonts/FiraSans-Italic.ttf
-Requested font "Fira Sans/I/OT" at 10.0pt
- -> ^^96^^X/windows/Fonts/FiraSans-Italic.ttf
+\g__fontspec_family_FiraSansLight_int=\count272
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1817,101 +1231,295 @@ Requested font "Fira Sans/I/OT" at 10.0pt
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Fira
 . Sans/I/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
 .................................................
-Requested font "Fira Mono" at 10.0pt
- -> Ê^^X/windows/Fonts/FiraMono-Medium.ttf
-Requested font "Fira Mono/OT" at 10.0pt
- -> ^^96^^X/windows/Fonts/FiraMono-Medium.ttf
-\g__fontspec_family_FiraMono_int=\count275
-Requested font "Fira Mono/OT" at 10.0pt
- -> ö^^W/windows/Fonts/FiraMono-Medium.ttf
-Requested font "Fira Mono/BI/OT" at 10.0pt
- -> ¦^^X/windows/Fonts/FiraMono-Bold.ttf
-Requested font "Fira Mono/OT" at 10.0pt
- -> ^^9a^^X/windows/Fonts/FiraMono-Medium.ttf
-Requested font "Fira Mono/B/OT" at 10.0pt
- -> ¶^^X/windows/Fonts/FiraMono-Bold.ttf
-Requested font "Fira Mono/OT" at 10.0pt
- -> ^^9a^^X/windows/Fonts/FiraMono-Medium.ttf
-Requested font "Fira Mono/I/OT" at 10.0pt
- -> ®^^X/windows/Fonts/FiraMono-Medium.ttf
+\g__fontspec_family_FiraCodeLight_int=\count273
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font Fira Mono/I (it probably doesn't exist).
+. Could not resolve font Fira Code Light/I (it probably doesn't exist).
 .................................................
-Requested font "Fira Mono/OT" at 10.0pt
- -> ¶^^W/windows/Fonts/FiraMono-Medium.ttf
-Requested font "Fira Mono/OT" at 10.0pt
- -> ¶^^X/windows/Fonts/FiraMono-Medium.ttf
-Requested font "Fira Mono/B/OT" at 10.0pt
- -> Þ^^X/windows/Fonts/FiraMono-Bold.ttf
-Requested font "Fira Mono/B/OT" at 10.0pt
- -> ¶^^W/windows/Fonts/FiraMono-Bold.ttf
-Requested font "Fira Mono/BI/OT" at 10.0pt
- -> ^^9a^^X/windows/Fonts/FiraMono-Bold.ttf
-Requested font "Fira Mono/BI/OT" at 10.0pt
- -> ¶^^X/windows/Fonts/FiraMono-Bold.ttf
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'FiraMono(0)' created for font 'Fira Mono' with options
-. [WordSpace={1,0,0},PunctuationSpace=WordSpace].
+. Font family 'FiraCodeLight(0)' created for font 'Fira Code Light' with
+. options [WordSpace={1,0,0},PunctuationSpace=WordSpace].
 . 
 . This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <->"Fira
-. Mono/OT:script=latn;language=DFLT;"
+. - 'normal' (m/n) with NFSS spec.: <->"Fira Code
+. Light/OT:script=latn;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
-. - 'bold' (bx/n) with NFSS spec.: <->"Fira
-. Mono/B/OT:script=latn;language=DFLT;"
+. - 'bold' (bx/n) with NFSS spec.: <->"Fira Code
+. Light/B/OT:script=latn;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Fira
-. Mono/BI/OT:script=latn;language=DFLT;"
+. - 'bold italic' (bx/it) with NFSS spec.: <->"Fira Code
+. Light/BI/OT:script=latn;language=DFLT;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
+) (beamercolorthemesorbonne.sty))
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2016/09/07 v3.5 programmable bibliographies (PK/JW/AB)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count275
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write5
+\integerpart=\count276
+\decimalpart=\count277
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count278
+\c@listtotal=\count279
+\c@listcount=\count280
+\c@liststart=\count281
+\c@liststop=\count282
+\c@citecount=\count283
+\c@citetotal=\count284
+\c@multicitecount=\count285
+\c@multicitetotal=\count286
+\c@instcount=\count287
+\c@maxnames=\count288
+\c@minnames=\count289
+\c@maxitems=\count290
+\c@minitems=\count291
+\c@citecounter=\count292
+\c@savedcitecounter=\count293
+\c@uniquelist=\count294
+\c@uniquename=\count295
+\c@refsection=\count296
+\c@refsegment=\count297
+\c@maxextratitle=\count298
+\c@maxextratitleyear=\count299
+\c@maxextrayear=\count300
+\c@maxextraalpha=\count301
+\c@abbrvpenalty=\count302
+\c@highnamepenalty=\count303
+\c@lownamepenalty=\count304
+\c@maxparens=\count305
+\c@parenlevel=\count306
+\blx@tempcnta=\count307
+\blx@tempcntb=\count308
+\blx@tempcntc=\count309
+\blx@maxsection=\count310
+\blx@maxsegment@0=\count311
+\blx@notetype=\count312
+\blx@parenlevel@text=\count313
+\blx@parenlevel@foot=\count314
+\blx@sectionciteorder@0=\count315
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
+\blx@bcfin=\read3
+\blx@bcfout=\write6
+\c@mincomprange=\count316
+\c@maxcomprange=\count317
+\c@mincompwidth=\count318
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count319
+\c@savedafterword=\count320
+\c@annotator=\count321
+\c@savedannotator=\count322
+\c@author=\count323
+\c@savedauthor=\count324
+\c@bookauthor=\count325
+\c@savedbookauthor=\count326
+\c@commentator=\count327
+\c@savedcommentator=\count328
+\c@editor=\count329
+\c@savededitor=\count330
+\c@editora=\count331
+\c@savededitora=\count332
+\c@editorb=\count333
+\c@savededitorb=\count334
+\c@editorc=\count335
+\c@savededitorc=\count336
+\c@foreword=\count337
+\c@savedforeword=\count338
+\c@holder=\count339
+\c@savedholder=\count340
+\c@introduction=\count341
+\c@savedintroduction=\count342
+\c@namea=\count343
+\c@savednamea=\count344
+\c@nameb=\count345
+\c@savednameb=\count346
+\c@namec=\count347
+\c@savednamec=\count348
+\c@translator=\count349
+\c@savedtranslator=\count350
+\c@shortauthor=\count351
+\c@savedshortauthor=\count352
+\c@shorteditor=\count353
+\c@savedshorteditor=\count354
+\c@labelname=\count355
+\c@savedlabelname=\count356
+\c@institution=\count357
+\c@savedinstitution=\count358
+\c@lista=\count359
+\c@savedlista=\count360
+\c@listb=\count361
+\c@savedlistb=\count362
+\c@listc=\count363
+\c@savedlistc=\count364
+\c@listd=\count365
+\c@savedlistd=\count366
+\c@liste=\count367
+\c@savedliste=\count368
+\c@listf=\count369
+\c@savedlistf=\count370
+\c@location=\count371
+\c@savedlocation=\count372
+\c@organization=\count373
+\c@savedorganization=\count374
+\c@origlocation=\count375
+\c@savedoriglocation=\count376
+\c@origpublisher=\count377
+\c@savedorigpublisher=\count378
+\c@publisher=\count379
+\c@savedpublisher=\count380
+\c@language=\count381
+\c@savedlanguage=\count382
+\c@pageref=\count383
+\c@savedpageref=\count384
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2016/09/07 v3.5 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2016/09/07 v3.5 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2016/09/07 v3.5 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count385
+\c@textcitetotal=\count386
+\c@textcitemaxnames=\count387
+\c@biburlnumpenalty=\count388
+\c@biburlucpenalty=\count389
+\c@biburllcpenalty=\count390
+\c@smartand=\count391
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\authoryear.bbx"
+File: authoryear.bbx 2016/09/07 v3.5 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2016/09/07 v3.5 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count392
+\c@bbx:relatedtotal=\count393
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx"
+File: authoryear.cbx 2016/09/07 v3.5 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2016/09/07 v3.5 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+\@quotelevel=\count394
+\@quotereset=\count395
 (exemple_latex.aux)
 \openout1 = `exemple_latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 20.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1948,7 +1556,7 @@ LaTeX Font Info:    ... okay on input line 13.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1956,15 +1564,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count396
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (exemple_latex.out) (exemple_latex.out)
-\@outlinefile=\write5
-\openout5 = `exemple_latex.out'.
+\@outlinefile=\write7
+\openout7 = `exemple_latex.out'.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator
@@ -1991,241 +1599,171 @@ Dictionary: translator-numbers-dictionary, Language: English
 -theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 13.
-\c@lstlisting=\count277
+LaTeX Info: Redefining \includegraphics on input line 20.
+\c@lstlisting=\count397
 
 *** you should *not* be loading the inputenc package
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
-(exemple_latex.nav)
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 13.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 5.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 17.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 20.74pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 17.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;+smcp;" at 20.74pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/sc' will be
-(Font)              scaled to size 20.74pt on input line 17.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+pnum;+onum;+smcp;" at 20.74pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 12.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 17.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;+smcp;" at 12.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/sc' will be
-(Font)              scaled to size 12.0pt on input line 17.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+pnum;+onum;+smcp;" at 12.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout6 = `exemple_latex-blx.bib'.
 
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'exemple_latex.bbl' found.
+(exemple_latex.bbl)
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+ (exemple_latex.nav)
 
-LaTeX Font Warning: Font shape `EU1/FiraMono(0)/m/sc' undefined
-(Font)              using `EU1/FiraMono(0)/m/n' instead on input line 17.
+LaTeX Font Warning: Font shape `EU1/FiraCodeLight(0)/m/sc' undefined
+(Font)              using `EU1/FiraCodeLight(0)/m/n' instead on input line 24.
 
-Requested font "Fira Mono/OT:script=latn;language=DFLT;" at 12.0pt
- -> ^^V^^Z/windows/Fonts/FiraMono-Medium.ttf
 File: sorbonne-med-white.png Graphic file (type QTm)
-<use  "sorbonne-med-white.png" > [1
+<use  "sorbonne-med-white.png" >
+File: cc.png Graphic file (type QTm)
+ <use  "cc.png" > [1
 
-] (exemple_latex.toc
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 9.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-)
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 22.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 14.4pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 22.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;+smcp;" at 14.4pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/sc' will be
-(Font)              scaled to size 14.4pt on input line 22.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+pnum;+onum;+smcp;" at 14.4pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
-File: sorbonne-med.jpg Graphic file (type QTm)
+] (exemple_latex.toc)
+File: sorbonne-med.png Graphic file (type QTm)
 
-<use  "sorbonne-med.jpg" >
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/n' will be
-(Font)              scaled to size 4.0pt on input line 22.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
--text;mapping=tex-text;+pnum;+onum;" at 4.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Regular.otf
- [2
+<use  "sorbonne-med.png" > [2
 
 ]
 File: sorbonne-med-white.png Graphic file (type QTm)
  <use  "sorbonne-med-white.png" >
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/sc' will be
-(Font)              scaled to size 100.0pt on input line 24.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+pnum;+onum;+smcp;" at 100.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
-
-Underfull \hbox (badness 2334) in paragraph at lines 24--24
-[]\EU1/FiraSans(0)/bx/sc/14.4 Introduction avec un titre un
+Underfull \hbox (badness 1215) in paragraph at lines 33--33
+[]\EU1/FiraSansLight(0)/bx/sc/14.4 Introduction avec un titre un
  []
 
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/sc' will be
-(Font)              scaled to size 10.0pt on input line 24.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+pnum;+onum;+smcp;" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
 (exemple_latex.toc)
-LaTeX Font Info:    Try loading font information for OT1+cmbr on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+cmbr on input line 33.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\cmbright\ot1cmbr.fd"
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-Requested font "cmbr10" at 14.4pt
-Requested font "cmbr10" at 10.0pt
-Requested font "cmbr8" at 7.0pt
-LaTeX Font Info:    Try loading font information for OML+cmbrm on input line 24
+LaTeX Font Info:    Try loading font information for OML+cmbrm on input line 33
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\cmbright\omlcmbrm.fd"
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-Requested font "cmbrmi10" at 14.4pt
-Requested font "cmbrmi10" at 10.0pt
-Requested font "cmbrmi8" at 7.0pt
-LaTeX Font Info:    Try loading font information for OMS+cmbrs on input line 24
+LaTeX Font Info:    Try loading font information for OMS+cmbrs on input line 33
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cmbright\omscmbrs.fd"
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
-)
-Requested font "cmbrsy10" at 14.4pt
-Requested font "cmbrsy10" at 10.0pt
-Requested font "cmbrsy8" at 7.0pt
-Requested font "cmex10" at 14.4pt
-Requested font "cmex7" at 7.0pt
-Requested font "cmbras10" at 14.4pt
-Requested font "cmbras10" at 10.0pt
-Requested font "cmbras8" at 7.0pt
-Requested font "cmbrbs10" at 14.4pt
-Requested font "cmbrbs10" at 10.0pt
-Requested font "cmbrbs8" at 7.0pt
- [3
+) [3
 
 ]
 File: sorbonne-med-white.png Graphic file (type QTm)
 
 <use  "sorbonne-med-white.png" >
-Underfull \hbox (badness 2334) in paragraph at lines 26--26
-[]\EU1/FiraSans(0)/bx/sc/14.4 Introduction avec un titre un
+Underfull \hbox (badness 1215) in paragraph at lines 35--35
+[]\EU1/FiraSansLight(0)/bx/sc/14.4 Introduction avec un titre un
  []
 
 (exemple_latex.toc) [4
 
 ]
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 40.
-Requested font "[FiraSans-RegularItalic.otf]/OT:script=latn;language=DFLT;mappi
-ng=tex-text;mapping=tex-text;+pnum;+onum;" at 10.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-RegularItal
-ic.otf
-Requested font "cmbr8" at 5.0pt
-Requested font "cmbrmi8" at 5.0pt
-Requested font "cmbrsy8" at 5.0pt
-Requested font "cmex7" at 5.0pt
-Requested font "cmbras8" at 5.0pt
-Requested font "cmbrbs8" at 5.0pt
-File: sorbonne-med.jpg Graphic file (type QTm)
- <use  "sorbonne-med.jpg" >
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/sc' will be
-(Font)              scaled to size 9.0pt on input line 40.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+pnum;+onum;+smcp;" at 9.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-Bold.otf
-LaTeX Font Info:    Font shape `EU1/FiraSans(0)/bx/itsc' will be
-(Font)              scaled to size 9.0pt on input line 40.
-Requested font "[FiraSans-BoldItalic.otf]/OT:script=latn;language=DFLT;mapping=
-tex-text;mapping=tex-text;+pnum;+onum;+smcp;" at 9.0pt
- -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/fira/FiraSans-BoldItalic.
-otf
- [5
+File: sorbonne-med.png Graphic file (type QTm)
+ <use  "sorbonne-med.png" > [5
 
 ]
-File: sorbonne-med.jpg Graphic file (type QTm)
+File: sorbonne-med.png Graphic file (type QTm)
 
-<use  "sorbonne-med.jpg" > [6
+<use  "sorbonne-med.png" > [6
 
 ]
-File: sorbonne-med.jpg Graphic file (type QTm)
- <use  "sorbonne-med.jpg" > [7
+File: sorbonne-med.png Graphic file (type QTm)
+ <use  "sorbonne-med.png" > [7
 
 ]
 File: sorbonne-med-white.png Graphic file (type QTm)
 
 <use  "sorbonne-med-white.png" >
-Underfull \hbox (badness 2334) in paragraph at lines 42--42
-[]\EU1/FiraSans(0)/bx/sc/14.4 Introduction avec un titre un
+Underfull \hbox (badness 1215) in paragraph at lines 51--51
+[]\EU1/FiraSansLight(0)/bx/sc/14.4 Introduction avec un titre un
  []
 
 (exemple_latex.toc) [8
 
 ]
-File: sorbonne-med.jpg Graphic file (type QTm)
- <use  "sorbonne-med.jpg" > [9
+File: sorbonne-med.png Graphic file (type QTm)
+ <use  "sorbonne-med.png" > [9
 
 ]
 \openout4 = `exemple_latex.vrb'.
 
  (exemple_latex.vrb)
-File: sorbonne-med.jpg Graphic file (type QTm)
+File: sorbonne-med.png Graphic file (type QTm)
 
-<use  "sorbonne-med.jpg" > [10
+<use  "sorbonne-med.png" > [10
 
 ]
-\tf@nav=\write6
-\openout6 = `exemple_latex.nav'.
+\openout4 = `exemple_latex.vrb'.
 
-\tf@toc=\write7
-\openout7 = `exemple_latex.toc'.
+ (exemple_latex.vrb)
+File: sorbonne-med.png Graphic file (type QTm)
+ <use  "sorbonne-med.png" >
+[11
 
-\tf@snm=\write8
-\openout8 = `exemple_latex.snm'.
+]
+File: sorbonne-med.png Graphic file (type QTm)
+ <use  "sorbonne-med.png" > [12
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
- (exemple_latex.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 69.
+]
+File: sorbonne-med-white.png Graphic file (type QTm)
+ <use  "sorbonne-med-white.png" >
+(exemple_latex.toc) [13
+
+]
+File: beamericonarticle.pdf Graphic file (type QTm)
+ <use  "beamericonarticle.pdf" >
+File: sorbonne-med.png Graphic file (type QTm)
+
+<use  "sorbonne-med.png" > [14
+
+]
+File: sorbonne-med-white.png Graphic file (type QTm)
+ <use  "sorbonne-med-white.png" > [15
+
+]
+\tf@nav=\write8
+\openout8 = `exemple_latex.nav'.
+
+\tf@toc=\write9
+\openout9 = `exemple_latex.toc'.
+
+\tf@snm=\write10
+\openout10 = `exemple_latex.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+
+(exemple_latex.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 110.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+Package logreq Info: Writing requests to 'exemple_latex.run.xml'.
+\openout1 = `exemple_latex.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 37175 strings out of 428408
- 720852 string characters out of 3160624
- 718134 words of memory out of 3000000
- 39931 multiletter control sequences out of 15000+200000
- 11400 words of font info for 94 fonts, out of 3000000 for 9000
+ 42533 strings out of 428408
+ 811506 string characters out of 3160624
+ 1019363 words of memory out of 3000000
+ 45321 multiletter control sequences out of 15000+200000
+ 11256 words of font info for 76 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,16n,90p,10399b,940s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,16n,85p,10476b,4523s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on exemple_latex.pdf (10 pages).
+Output written on exemple_latex.pdf (15 pages).

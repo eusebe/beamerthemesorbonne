@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{In the morning}{3}{0}{1}
+\beamer@sectionintoc {2}{In the evening}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Dinner}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Going to sleep}{13}{0}{2}
+\beamer@sectionintoc {3}{References}{15}{0}{3}
