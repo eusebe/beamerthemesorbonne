@@ -10,10 +10,15 @@
 \date[2019]{Novembre 2019}
 \author[Euclid]{Euclid of Alexandria \texttt{euclid@alexandria.edu}}
 \institute{Département mathématique d'Alexandrie}
-%\usetheme[style=medecine]{sorbonne} % pour un theme plus rouge
-\usetheme[style=universite]{sorbonne} % pour un theme plus bleu
 
-\usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
+% \usetheme[logo=medecine,style=medecine]{sorbonne} % pour un theme plus rouge et le logo médecine (par défaut)
+% \usetheme[logo=universite,style=universite]{sorbonne} % pour un theme plus bleu foncé et le logo université
+% \usetheme[logo=sciences,style=sciences]{sorbonne} % pour un theme plus bleu clair et le logo sciences
+% \usetheme[logo=lettres,style=lettres]{sorbonne} % pour un theme plus jaune et le logo lettres
+% logo et theme sont mixables
+\usetheme[logo=medecine,style=universite]{sorbonne} % pour un theme plus rouge et le logo médecine
+
+\usepackage[backend=bibtex, logo=authoryear, citelogo=authoryear]{biblatex}
 \bibliography{library.bib}
 %\renewcommand*{\bibfont}{\footnotesize} % si besoin de réduire la taille du texte de la bibliographie
 

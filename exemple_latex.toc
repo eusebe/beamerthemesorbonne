@@ -2,9 +2,9 @@
 \defcounter {refsection}{0}\relax 
 \beamer@endinputifotherversion {3.36pt}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes à un canard}{3}{0}{1}
+\beamer@sectionintoc {1}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes \IeC {\`a} un canard}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{1}{Commençons par le commencement}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Commen\IeC {\c c}ons par le commencement}{4}{0}{1}
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {1}{2}{Finissons !}{8}{0}{1}
 \defcounter {refsection}{0}\relax 

@@ -1,17 +1,37 @@
 \mode<presentation>
 
+\DeclareOptionBeamer{logo}{\def\beamer@mytheme@logo{#1}}
+\ExecuteOptionsBeamer{logo=medecine} % medecine will be default if nothing is given
+\ProcessOptionsBeamer
+
+\def\beamer@mytheme@logomedecine{medecine}%
+\def\beamer@mytheme@logouniversite{universite}%
+\def\beamer@mytheme@logosciences{sciences}%
+\def\beamer@mytheme@logolettres{lettres}%
+
 \DeclareOptionBeamer{style}{\def\beamer@mytheme@style{#1}}
 \ExecuteOptionsBeamer{style=medecine} % medecine will be default if nothing is given
 \ProcessOptionsBeamer
 
 \def\beamer@mytheme@stylemedecine{medecine}%
 \def\beamer@mytheme@styleuniversite{universite}%
+\def\beamer@mytheme@stylesciences{sciences}%
+\def\beamer@mytheme@stylelettres{lettres}%
+
 
 \ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
 \definecolor{sorbonnered}{HTML}{AC182E} % medecine
 \else% 
     \ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
         \definecolor{sorbonnered}{HTML}{1D2769} % universite
+    \else% 
+        \ifx\beamer@mytheme@style\beamer@mytheme@stylesciences%
+            \definecolor{sorbonnered}{HTML}{52B5E5} % sciences
+        \else% 
+          \ifx\beamer@mytheme@style\beamer@mytheme@stylelettres%
+              \definecolor{sorbonnered}{HTML}{FFB700} % lettres
+          \fi%
+        \fi%
     \fi%
 \fi%
 

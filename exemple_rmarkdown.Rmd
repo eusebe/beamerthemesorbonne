@@ -7,19 +7,35 @@ institute: Alexandria department
 date: Novembre 2019
 fontsize: 11pt
 bibliography: library.bib
+csl: elsevier-vancouver.csl
+header-includes: 
+- |
+  ```{=latex}
+  % \pgfpagesuselayout{2 on 1}[a4paper] % décommenter si besoin d'un support de cours à imprimer
+  \usepackage{graphicx}
+  \usepackage{rotating}
+  \usepackage{hyperref}
+  \usepackage{caption}
+  \usepackage[normalem]{ulem} % des commandes pour souligner les choses importantes http://texdoc.net/texmf-dist/doc/generic/ulem/ulem.pdf
+  \usepackage{wasysym} % qq symboles maths http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/wasysym/wasysym.pdf
+  \usepackage{bbm} % pour \mathbbm{1}
+  \setbeamertemplate{caption}[numbered] % affichage de "Figure 1"
+  \usetheme[style=medecine,logo=medecine]{sorbonne} % modifier le style si besoin
+  ```
 output:
     beamer_presentation: 
       includes:
         before_body: toc.tex
         after_body: merci.tex
-        in_header: headersorbonne.tex
       keep_tex: yes
       highlight: tango
       template: "default.beamer"
+      latex_engine: xelatex # commenter (ainsi que la ligne suivante) pour compiler avec pdflatex
+      pandoc_args: "--variable=mathspec"
 ---
 
 ```{r, echo=FALSE}
-default.size <- "scriptsize" ## Taille du code R par defaut (choix possible : "normalsize", "tiny", "scriptsize", 'footnotesize", "small", "large", "Large", "LARGE", "huge", "Huge"). Ne pas modifier ce qu'il y a ci-dessous !
+default.size <- "scriptsize" ## Taille du code R par defaut (choix possible : "normalsize", "tiny", "scriptsize", 'footnotesize", "small", "large", "Large", "LARGE", "huge", "Huge"). C'est la seule option à toucher, ne pas modifier ce qu'il y a ci-dessous !
 knitr::opts_chunk$set(size = default.size) ## 
 def.chunk.hook  <- knitr::knit_hooks$get("chunk")
 knitr::knit_hooks$set(chunk = function(x, options) {

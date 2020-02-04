@@ -133,20 +133,16 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% \pgfpagesuselayout{2 on 1}[a4paper] % décommenter si besoin d'un support de cours à imprimer
 \usepackage{graphicx}
 \usepackage{rotating}
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage[normalem]{ulem} % des commandes pour souligner les choses importantes http://texdoc.net/texmf-dist/doc/generic/ulem/ulem.pdf
-%\mode<presentation>
 \usepackage{wasysym} % qq symboles maths http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/wasysym/wasysym.pdf
 \usepackage{bbm} % pour \mathbbm{1}
-
 \setbeamertemplate{caption}[numbered] % affichage de "Figure 1"
-
-\usetheme[style=universite]{sorbonne}
-
-\makeatother
+\usetheme[style=medecine,logo=medecine]{sorbonne} % modifier le style si besoin
 
   \title{Un cours intéressant}
       \title[Un titre court]{Un cours intéressant}
@@ -206,7 +202,7 @@ Then, Gauss discovered the normal distribution:
 Finally, Einstein proclaimed: \[E = m C^2\]
 
 At the end, Ioannidis concluded that most published research findings
-are false (see Ioannidis 2005)
+are false {[}1{]}
 
 \end{frame}
 
@@ -264,7 +260,7 @@ are false (see Ioannidis 2005)
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{exemple_rmarkdown_xelatex_files/figure-beamer/unnamed-chunk-4-1.pdf}
+\includegraphics{exemple_rmarkdown_files/figure-beamer/unnamed-chunk-4-1.pdf}
 
 \normalsize
 
@@ -319,8 +315,8 @@ Good night!
 
 \hypertarget{refs}{}
 \leavevmode\hypertarget{ref-Ioannidis_2005}{}%
-Ioannidis, John P. A. 2005. ``Why Most Published Research Findings Are
-False.'' \emph{PLOS Medicine} 2 (8): e124.
+{[}1{]} Ioannidis JPA. Why Most Published Research Findings Are False.
+PLOS Medicine 2005;2:e124.
 \url{https://doi.org/10.1371/journal.pmed.0020124}.
 
 \end{frame}

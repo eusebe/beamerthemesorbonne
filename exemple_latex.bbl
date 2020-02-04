@@ -16,7 +16,7 @@
   {}
 \endgroup
 
-\sortlist[entry]{nyt/global/}
+\sortlist[entry]{nty/global/}
   \entry{Ioannidis_2005}{article}{}
     \name{author}{1}{}{%
       {{hash=IJPA}{%
@@ -37,7 +37,6 @@
     \strng{fullhash}{IJPA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2005}
     \field{sortinit}{I}
     \field{sortinithash}{I}
     \field{abstract}{%

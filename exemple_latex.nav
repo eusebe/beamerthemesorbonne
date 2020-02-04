@@ -9,7 +9,7 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {2}{2}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {1}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes à un canard}{3}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes à un canard}{0}}
+\headcommand {\sectionentry {1}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes \IeC {\`a} un canard}{3}{Introduction avec un titre un peu long mais qui ne casse pourtant pas trois pattes \IeC {\`a} un canard}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@sectionpages {1}{2}}
 \defcounter {refsection}{0}\relax 
@@ -19,13 +19,13 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {3}{3}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Commençons par le commencement}}\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Commen\IeC {\c c}ons par le commencement}}\headcommand {\beamer@subsectionpages {3}{3}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{1}{1}{4/4}{Commençons par le commencement}{0}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Commen\IeC {\c c}ons par le commencement}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {4}{4}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{1}{2}{5/7}{Commençons par le commencement}{0}}
+\headcommand {\slideentry {1}{1}{2}{5/7}{Commen\IeC {\c c}ons par le commencement}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {5}{7}}
 \defcounter {refsection}{0}\relax 

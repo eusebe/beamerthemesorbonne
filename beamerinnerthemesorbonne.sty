@@ -20,11 +20,19 @@
 	        \fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
 	        
 	        \node[anchor=south east, yshift=0.5cm, xshift=-0.5cm] at (current page.south east) {
-	        	\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+	        	\ifx\beamer@mytheme@logo\beamer@mytheme@logomedecine%
 	        		\includegraphics[width=2.5cm]{sorbonne-med-white.png}
 	        	\else% 
-	        		\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
-	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}	        			
+	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logouniversite%
+	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}
+		        	\else% 
+  	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logosciences%
+	          			\includegraphics[width=2.5cm]{sorbonne-sciences-white.png}	        			
+			        	\else% 
+    	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logolettres%
+	            			\includegraphics[width=2.5cm]{sorbonne-lettres-white.png}	        			
+		            	\fi%
+		          	\fi%
 		        	\fi%
 	        	\fi%
 	        };
@@ -80,11 +88,19 @@
 	        \fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
 	        
 	        \node[anchor=north west, yshift=-0.3cm, xshift=0.5cm] at (current page.north west) {
-	        	\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+	        	\ifx\beamer@mytheme@logo\beamer@mytheme@logomedecine%
 		        	\includegraphics[width=2.5cm]{sorbonne-med-white.png}
 	        	\else% 
-	        		\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logouniversite%
 	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}	        			
+		        	\else% 
+  	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logosciences%
+  	        			\includegraphics[width=2.5cm]{sorbonne-sciences-white.png}	        			
+			        	\else% 
+    	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logolettres%
+    	        			\includegraphics[width=2.5cm]{sorbonne-lettres-white.png}	        			
+	    	        	\fi%
+	  	        	\fi%
 		        	\fi%
 	        	\fi%
 	        };
@@ -135,11 +151,19 @@
 	        \fill[color=sorbonnered] (current page.north west) rectangle ([shift = {(0, -1\paperheight)}] current page.north east);
 	        
 	        \node[anchor=north west, yshift=-0.3cm, xshift=0.5cm] at (current page.north west) {
-	        	\ifx\beamer@mytheme@style\beamer@mytheme@stylemedecine%
+	        	\ifx\beamer@mytheme@logo\beamer@mytheme@logomedecine%
 	        		\includegraphics[width=2.5cm]{sorbonne-med-white.png}
 	        	\else% 
-	        		\ifx\beamer@mytheme@style\beamer@mytheme@styleuniversite%
+	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logouniversite%
 	        			\includegraphics[width=2.5cm]{sorbonne-univ-white.png}	        			
+		        	\else% 
+  	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logosciences%
+	          			\includegraphics[width=2.5cm]{sorbonne-sciences-white.png}	        			
+			        	\else% 
+    	        		\ifx\beamer@mytheme@logo\beamer@mytheme@logolettres%
+	            			\includegraphics[width=2.5cm]{sorbonne-lettres-white.png}	        			
+		            	\fi%
+		          	\fi%
 		        	\fi%
 	        	\fi%
 	        };
